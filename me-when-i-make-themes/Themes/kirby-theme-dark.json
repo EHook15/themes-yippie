@@ -1,0 +1,61 @@
+{
+    "name": "Kirby Dreamland Dark",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#1B1035",
+      "editor.foreground": "#FDFDFD",
+      "editor.selectionBackground": "#FF8FB355",
+      "editor.lineHighlightBackground": "#291A55",
+      "editorCursor.foreground": "#FFE066",
+      "editorWhitespace.foreground": "#3D2A5A",
+      "editorIndentGuide.background": "#2E1D50",
+      "editorLineNumber.foreground": "#8A80A3"
+    },
+    "tokenColors": [
+      {
+        "scope": ["comment"],
+        "settings": {
+          "foreground": "#abddf4",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["keyword", "storage"],
+        "settings": {
+          "foreground": "#B288FF",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["string"],
+        "settings": {
+          "foreground": "#A3E7FC"
+        }
+      },
+      {
+        "scope": ["constant", "variable.language"],
+        "settings": {
+          "foreground": "#FFE066"
+        }
+      },
+      {
+        "scope": ["entity.name.function", "support.function"],
+        "settings": {
+          "foreground": "#C1F2B0"
+        }
+      },
+      {
+        "scope": ["variable", "meta.definition.variable"],
+        "settings": {
+          "foreground": "#FF8FB3"
+        }
+      },
+      {
+        "scope": ["punctuation", "meta.brace"],
+        "settings": {
+          "foreground": "#f196e4"
+        }
+      }
+    ]
+  }
+  

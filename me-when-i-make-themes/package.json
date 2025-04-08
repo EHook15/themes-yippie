@@ -1,0 +1,20 @@
+{
+    "name": "kirby-theme-dark",
+    "displayName": "Kirby Theme Dark",
+    "description": "Silly person wanted to make pastel dark mode theme",
+    "version": "0.0.1",
+    "publisher": "EHook15",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Kirby Theme Dark",
+          "uiTheme": "vs-dark",
+          "path": "./themes/kirby-theme-dark.json"
+        }
+      ]
+    }
+  }
