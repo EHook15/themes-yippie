@@ -16,16 +16,6 @@
           "path": "./themes/kirby-theme-dark.json"
         },
         {
-          "label": "Kirby Theme Light",
-          "uiTheme": "hc-light",
-          "path": "./themes/kirby-theme-light.json"
-        },
-        {
-          "label": "Test Theme 1",
-          "uiTheme": "vs-dark",
-          "path": "./themes/test-theme-one.json"
-        },
-        {
           "label": "Meta Knight Theme",
           "uiTheme": "vs-dark",
           "path": "./themes/kirby-theme-mk-dark.json"
