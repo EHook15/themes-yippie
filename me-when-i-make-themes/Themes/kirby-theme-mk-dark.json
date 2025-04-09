@@ -1,0 +1,154 @@
+{
+  "name": "Meta Knight",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1E1E2E",
+    "editor.foreground": "#C0C0C0",
+    "editorCursor.foreground": "#FFD700",
+    "editor.lineHighlightBackground": "#2A2A3A",
+    "editorLineNumber.foreground": "#555",
+    "editor.selectionBackground": "#3B4CCA55",
+    "editor.inactiveSelectionBackground": "#3B4CCA33",
+    "editorIndentGuide.background": "#444",
+    "editorIndentGuide.activeBackground": "#666",
+
+    "sideBar.background": "#1A1A28",
+    "sideBar.foreground": "#C0C0C0",
+    "sideBarSectionHeader.background": "#1A1A28",
+    "activityBar.background": "#151522",
+    "activityBar.foreground": "#C0C0C0",
+
+    "tab.activeBackground": "#2E2E3E",
+    "tab.inactiveBackground": "#1A1A28",
+    "tab.border": "#FFD700",
+    "tab.activeBorderTop": "#FFD700",
+    "tab.activeForeground": "#FFD700",
+    "tab.inactiveForeground": "#888",
+
+    "titleBar.activeBackground": "#1E1E2E",
+    "titleBar.inactiveBackground": "#1A1A28",
+    "titleBar.activeForeground": "#C0C0C0",
+    "titleBar.inactiveForeground": "#888888",
+
+    "statusBar.background": "#1E1E2E",
+    "statusBar.foreground": "#C0C0C0",
+
+    "terminal.background": "#1E1E2E",
+    "terminal.foreground": "#C0C0C0",
+    "terminalCursor.foreground": "#FFD700",
+    "terminal.ansiBlack": "#1A1A28",
+    "terminal.ansiRed": "#D75F5F",
+    "terminal.ansiGreen": "#98C379",
+    "terminal.ansiYellow": "#FFD700",
+    "terminal.ansiBlue": "#3B4CCA",
+    "terminal.ansiMagenta": "#A07FFF",
+    "terminal.ansiCyan": "#56B6C2",
+    "terminal.ansiWhite": "#C0C0C0",
+    "terminal.ansiBrightBlack": "#444",
+    "terminal.ansiBrightRed": "#FF6E6E",
+    "terminal.ansiBrightGreen": "#B5F575",
+    "terminal.ansiBrightYellow": "#FFEA70",
+    "terminal.ansiBrightBlue": "#5C7FFF",
+    "terminal.ansiBrightMagenta": "#C39AFF",
+    "terminal.ansiBrightCyan": "#88DDF0",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "tab.unfocusedActiveBackground": "#1E1E2E",
+    "tab.unfocusedInactiveBackground": "#1A1A28",
+    "tab.activeBorder": "#FFD700",
+    "tab.hoverBackground": "#292940",
+    "tab.unfocusedHoverBackground": "#292940",
+
+    "editorGroupHeader.tabsBackground": "#1A1A28",
+    "editorGroupHeader.noTabsBackground": "#1A1A28",
+    "editorGroup.border": "#1A1A28",
+
+    "breadcrumb.background": "#1A1A28",
+    "breadcrumb.foreground": "#AAAAAA"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#8888AA",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": {
+        "foreground": "#5D3FD3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["constant", "variable.language", "support.constant"],
+      "settings": {
+        "foreground": "#FFD700",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#C0C0C0"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted", "string.template"],
+      "settings": {
+        "foreground": "#A07FFF"
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#3B4CCA"
+      }
+    },
+    {
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#A07FFF"
+      }
+    },
+    {
+      "scope": "punctuation",
+      "settings": {
+        "foreground": "#888"
+      }
+    },
+    {
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#FFFFFF",
+        "background": "#FF0000"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    "comment": {
+      "foreground": "#8888AA",
+      "fontStyle": "italic"
+    },
+    "keyword": {
+      "foreground": "#5D3FD3",
+      "fontStyle": "bold"
+    },
+    "variable.readonly": {
+      "foreground": "#FFD700",
+      "fontStyle": "bold"
+    },
+    "string": {
+      "foreground": "#A07FFF"
+    },
+    "function": {
+      "foreground": "#3B4CCA"
+    },
+    "parameter": {
+      "foreground": "#A0A0C0"
+    },
+    "type": {
+      "foreground": "#A07FFF"
+    }
+  }
+}

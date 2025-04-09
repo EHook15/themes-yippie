@@ -1,7 +1,7 @@
 {
-    "name": "kirby-theme-dark",
-    "displayName": "Kirby Theme Dark",
-    "description": "Silly person wanted to make pastel dark mode theme",
+    "name": "kirby-theme",
+    "displayName": "Kirby Theme",
+    "description": "Silly person wanted to make pastel themes",
     "version": "0.0.1",
     "publisher": "EHook15",
     "engines": {
@@ -14,6 +14,26 @@
           "label": "Kirby Theme Dark",
           "uiTheme": "vs-dark",
           "path": "./themes/kirby-theme-dark.json"
+        },
+        {
+          "label": "Kirby Theme Light",
+          "uiTheme": "hc-light",
+          "path": "./themes/kirby-theme-light.json"
+        },
+        {
+          "label": "Test Theme 1",
+          "uiTheme": "vs-dark",
+          "path": "./themes/test-theme-one.json"
+        },
+        {
+          "label": "Meta Knight Theme",
+          "uiTheme": "vs-dark",
+          "path": "./themes/kirby-theme-mk-dark.json"
+        },
+        {
+          "label": "Galacta Knight Theme",
+          "uiTheme": "vs-dark",
+          "path": "./themes/kirby-theme-gk-dark.json"
         }
       ]
     }
