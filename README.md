@@ -8,9 +8,10 @@ How to use the theme:
 7. put my package.json into this folder
 8. create another folder (mine is called Themes)
 9. open said folder
-10. put my kirby-theme-dark.json into this folder
+10. put one or more of the themes into this folder
 11. open VScode
 12. click settings in bottom right corner and clcik "Color Theme"
-13. search for "kirby theme dark"
+13. search for (the theme name)
 14. press enter
 15. yippie
+16. dont tell me "just make an extension its so much easier-" NO
