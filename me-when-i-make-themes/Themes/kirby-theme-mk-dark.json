@@ -123,7 +123,20 @@
         "foreground": "#FFFFFF",
         "background": "#FF0000"
       }
-    }
+    },
+    {
+      "name": "Pygame Keywords",
+      "scope": [
+          "variable.other.python",
+          "support.function",
+          "keyword.control",
+          "meta.function-call.python"
+      ],
+      "settings": {
+          "foreground": "#C0C0C0",
+          "fontStyle": "bold"
+      }
+  }
   ],
   "semanticTokenColors": {
     "comment": {
