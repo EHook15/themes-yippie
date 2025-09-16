@@ -67,6 +67,17 @@
   },
   "tokenColors": [
     {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "meta.operator"
+      ],
+      "settings": {
+        "foreground": "#C0C0C0",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "scope": "comment",
       "settings": {
         "foreground": "#8888AA",
